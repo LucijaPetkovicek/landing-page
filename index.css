@@ -1,15 +1,31 @@
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: #7c6965;
     padding: 0px 200px 0px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
     font-size: 24px;
+    
+}
+
+.logoName {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    
 }
 
 ul {
@@ -32,23 +48,44 @@ a {
 }
 
 .main {
-    padding: 0px 200px 0px 200px;
-    background-color: #1f2937;
+    padding: 30px 200px 30px 200px;
+    background-color: #7c6965a6;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     color: #f9faf8;
+    gap: 50px;
 }
 
 .main .container {
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 500px;
+    justify-content: flex-start;
+    width: 700px;
+    margin: 0;
+    gap: 20px;
     
 }
+
+.main .container h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+.main .container button {
+    width: max-content;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    color: #7c6965;
+    
+}
+
 .placeholder {
-    width: 100%;
-    flex:1;
-    background-color: #e5e7eb;
+    flex-shrink: 0;
+    width: 400px;
+    border-radius: 5%;
+    
 }
