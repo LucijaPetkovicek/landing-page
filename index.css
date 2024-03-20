@@ -4,7 +4,7 @@ body {
     
 }
 
-.header {
+.header, .footer {
     background-color: #7c6965;
     padding: 0px 200px 0px 200px;
     display: flex;
@@ -47,13 +47,20 @@ a {
     color: #e5e7eb;
 }
 
-.main {
-    padding: 30px 200px 30px 200px;
+.main, .join-container {
+    
     background-color: #7c6965a6;
     display: flex;
+    color: #f9faf8;
+    
+}
+
+.main {
+    padding: 30px 200px 30px 200px;
+    
     justify-content: space-between;
     align-items:center;
-    color: #f9faf8;
+ 
     gap: 50px;
 }
 
@@ -74,7 +81,7 @@ a {
     margin: 0;
 }
 
-.main .container button {
+.main .container button, .join-container button {
     width: max-content;
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
@@ -153,4 +160,27 @@ a {
 .author {
     text-align: end;
     font-family: "Bebas Neue", sans-serif;
+}
+.join {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.join-container {
+    border-radius: 10px;
+    width: 900px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-text h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer {
+    justify-content: center;
+    padding: 20px;
+    font-size: 10px;
 }
