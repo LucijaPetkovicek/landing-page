@@ -101,7 +101,8 @@ a {
 .ideas-container {
     display: flex;
     justify-content: center;
-    gap: 20px
+    gap: 20px;
+    padding-bottom: 30px;
 }
 
 .idea {
@@ -126,4 +127,30 @@ a {
     
     background-image: url('./images/DSCF9874.jpg');
     background-size: cover;
+}
+
+.quote-around {
+    background-color: #6d6d6d;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    background-color: #6d6d6d;
+    color: #e5e7eb;
+    width: 600px;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.quote {
+    text-align: start;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    text-align: end;
+    font-family: "Bebas Neue", sans-serif;
 }
